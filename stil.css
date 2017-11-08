@@ -1,0 +1,147 @@
+		@import url('https://fonts.googleapis.com/css?family=Raleway');
+        @import url('https://fonts.googleapis.com/css?family=Lato');
+
+* {
+    font-family: 'Lato', sans-serif; padding: 0; margin: 0; list-style: none; border: 0; text-decoration: none;  font-size: 14px; 
+}
+body{
+	background-color:#18182f;
+	padding: 55px;
+
+}
+.logo{
+ 	width:810px;
+	margin:auto;
+	background-color:#18182f;
+	border:1px solid black;
+	text-align: center;
+	background-image: url(dott.png);
+
+}
+
+.orta{
+max-width:810px;
+border:1px solid white;	
+margin:auto;
+height: 500px;
+background-image:url('x2.jpg');
+background-size: cover;
+background-position: center;
+overflow: hidden;
+
+}
+
+.menu{
+	max-width:810px;
+    overflow:hidden;
+    background-color:#18182f;
+    margin:auto;
+    border-top:1px solid white; 
+
+
+}
+.menu ul li {
+    float:left;
+
+}
+.menu ul li a{
+    display: block;
+    padding: 10px 20px;
+    color:#fff;
+    border-right:1px solid white; 
+
+}
+
+.menu ul li a:hover{
+background-color:#555;
+color:black;
+}
+.menu .diger{
+	float:right;
+}
+.ortaic{
+	background-image: url(dott.png);
+	height: 100%;
+	width:  100%;
+	color:#fff;
+}
+.ortayazi{
+	padding: 20px;
+}
+.ortayazi strong{
+	color:#fff;
+	font-size: 30px;
+}
+.ortayazi .surum{
+	color:gray;
+}
+.ortayazi p{
+    background-image: url(dott.png);
+    display: inline-block;
+}
+.cizgi{
+	height: 6px;
+	background: url(cizgi.png) repeat-x 0 0;
+    border: 0;
+
+}
+.logoust img{
+    z-index: -1;
+    position: fixed;
+    _position: absolute;
+    bottom: 100px;
+    right: 0px;
+    right:0px;
+    top:0px;
+    width:180px;
+}
+.ust{
+    width:100%;
+    position:fixed;
+    left:0px;
+    top:0px;
+    background:#166560;
+    text-align:center;
+    display: block;
+    border:1px solid #519ebd;
+
+}
+
+
+pre{
+  font-family: monospace,monospace;
+  color:#00FF00;
+  background-color:black;
+  margin:1em 0px;
+  display: inline-block;
+  font-size:13px;
+  border:1px solid #166560;
+  padding: 3px;
+  margin:3px;
+
+}
+pre i{
+  color:white;
+}
+.firma img{
+  width:115px;
+}
+.firma p{
+  background-color: black;
+  text-decoration-style: none;
+}
+.firma a:link{
+  color:white;
+  text-decoration: underline;
+}
+.firma a:visited{
+  color:white;
+  text-decoration: underline;
+}
+figure{
+  display: inline-block;
+  background-color: black;
+  margin:  6px;
+  padding: 4px;
+  border:1px solid #166560;
+}
