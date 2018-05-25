@@ -16,27 +16,27 @@ cover: /assets/images/default-cover.png
 
 # site title, description, meta_description, meta_keywords
 # Details for the RSS feed generator
-name: Mug Jekyll theme
-title: Mug
-description: "A free Jekyll theme for download"
-keywords: "Jekyll, theme, mug, free, download, SEO, blog, web"
-url: http://nandomoreira.me
-baseurl: "/mug"
-domain_name: nandomoreira.me
+name: Kanunsuzlar 
+title: Kanunsuzlar
+description: "Kanunsuzlar araştırma ekibi"
+keywords: "kanunsuzlar,kanun_suz,vodka"
+url: http://kanunsuzlar.com
+baseurl: "/"
+domain_name: kanunsuzlar.com
 # google_analytics: UA-52446115-1
-repo: http://github.com/nandomoreirame/mug
-disqus_shortname: "nandothemes"
+# repo: http://github.com/nandomoreirame/mug
+# disqus_shortname: "nandothemes"
 
 author:
-  name      : Fernando Moreira
+  name      : Kanunsuzlar 
   image     : /assets/images/author.jpg
-  email     : nandomoreira.me@gmail.com
-  url       : http://nandomoreira.me
-  facebook  : http://facebook.com/fernando.dev
-  twitter   : http://twitter.com/nandomoreirame
-  instagram : http://instagram.com/nandomoreira.me
-  github    : http://github.com/nandomoreirame
-  linkedin  : http://linkedin.com/in/nandomoreirame
-  bio       : "Desenvolvedor Front-end/Wordpress entusiasta de performance, design responsivo e usabilidade, sempre em busca do melhor projeto e de um bom café."
+  email     : yusuf@kanunsuzlar.com
+  #url       : http://nandomoreira.me
+  #facebook  : http://facebook.com/fernando.dev
+  #twitter   : http://twitter.com/nandomoreirame
+  #instagram : http://instagram.com/nandomoreira.me
+  #github    : http://github.com/nandomoreirame
+  #linkedin  : http://linkedin.com/in/nandomoreirame
+  bio       : "biotest"
 
 exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
