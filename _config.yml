@@ -3,10 +3,10 @@
 #
 
 # Name of your site (displayed in the header)
-name: Your Username
+name: kanunsuzlar
 
 # Short bio or description (displayed in the header)
-description: Programmer From Somewhere On Earth
+description: x
 
 
 #
@@ -39,7 +39,7 @@ google_analytics:
 
 # Your website URL (e.g. http://akshayagarwal007.github.io)
 # Used for Sitemap.xml and your RSS feed
-url:https://kanunsuzlar.com/
+url: https://kanunsuzlar.com/
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
