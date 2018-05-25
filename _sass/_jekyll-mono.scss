@@ -153,13 +153,13 @@ button.button-primary:focus {
 }
 
 .ch-grid {
-	display:none;
-	padding: 0;
-	list-style: none;
-	display: block;
-	text-align: center;
-	width: 100%;
-    
+	//padding: 0;
+	//list-style: none;
+	//display: block;
+	//text-align: center;
+	//width: 100%;
+    	display:none !important;
+
 }
 
 .ch-grid:after,
