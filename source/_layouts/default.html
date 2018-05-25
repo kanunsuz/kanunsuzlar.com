@@ -1,19 +1,29 @@
----
-layout: compress
----
-<!DOCTYPE html>
+{% strip %}<!DOCTYPE html>
 <html>
+  <head>
+    {% include head.html %}
 
-  {% include head.html %}
+    <meta name="robots" content="noindex"> <!--=====  Please remove it ! ! !  ======-->
+    <meta name="googlebot" content="noindex"> <!--=====  Please remove it ! ! !  ======-->
+  </head>
+  <body class="{% if page.bodyclass %}{{ page.bodyclass }}{% endif %}">
 
-  <body{% if page.body_class %} class="{{ page.body_class }}{% endif %}">
+    <main class="main-container">
 
-    <main class="wrapper">
-      {% include header.html %}
-      {{ content }}
-      {% include footer.html %}
+        {% include header.html %}
+
+        <section class="main-content">
+          {{ content }}
+        </section>
+
+        {% include footer.html %}
+
     </main>
 
-    {% include scripts.html %}
+    {% include github-corner.html %}
+
+    <script src="{{ '/js/jquery.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/js/jekyll-search.min.js' | prepend: site.baseurl }}"></script>
+    <script src="{{ '/js/main.js' | prepend: site.baseurl }}"></script>
   </body>
-</html><!-- by nandomoreira.me -->
+</html>{% endstrip %}
