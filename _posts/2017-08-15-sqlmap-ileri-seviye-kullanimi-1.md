@@ -16,7 +16,7 @@ SQLMap kullanımında açık bulunan sayfanın bağlı olduğu kullanıcı,verit
 
 genel kullanımı çok basittir 
 
-![SQLMap Kullanımı](https://blog.kanunsuzlar.com/resim/sqlmap1.jpg)
+![SQLMap Kullanımı](https://kanunsuzlar.com/resim/sqlmap1.jpg)
 
 ilk olarak 
 1) -u 
@@ -31,9 +31,9 @@ ilk olarak
 	
 	Veritabanlarını listelememize yarayan komut bize bu komuttan sonra veritabanı isimlerini çıkartacak ve bizde parametrelerle seçtiğimiz veritabanının tablolarını göreceğiz
 
-![SQLMap Kullanımı 2](https://blog.kanunsuzlar.com/resim/sqlmap2.jpg)
+![SQLMap Kullanımı 2](https://kanunsuzlar.com/resim/sqlmap2.jpg)
 
-![SQLMap Kullanımı 3](https://blog.kanunsuzlar.com/resim/sqlmap3.jpg)
+![SQLMap Kullanımı 3](https://kanunsuzlar.com/resim/sqlmap3.jpg)
 
 4) -D
 	
@@ -43,9 +43,9 @@ ilk olarak
 
 	Seçtiğimiz veritabanın da bulunan tabloları listeleriz
 	
-![SQLMap Kullanımı 4](https://blog.kanunsuzlar.com/resim/sqlmap4.jpg)
+![SQLMap Kullanımı 4](https://kanunsuzlar.com/resim/sqlmap4.jpg)
 
-![SQLMap Kullanımı 5](https://blog.kanunsuzlar.com/resim/sqlmap5.jpg)
+![SQLMap Kullanımı 5](https://kanunsuzlar.com/resim/sqlmap5.jpg)
 
 6) -T 
 	
@@ -55,9 +55,9 @@ ilk olarak
 	
 	Seçilen tablonun tüm kolonlarını görmemizi sağlar
 	
-![SQLMap Kullanımı 6](https://blog.kanunsuzlar.com/resim/sqlmap6.jpg)
+![SQLMap Kullanımı 6](https://kanunsuzlar.com/resim/sqlmap6.jpg)
 
-![SQLMap Kullanımı 7](https://blog.kanunsuzlar.com/resim/sqlmap7.jpg)
+![SQLMap Kullanımı 7](https://kanunsuzlar.com/resim/sqlmap7.jpg)
 
 8) -C 
 	
@@ -76,19 +76,19 @@ Buraya kadar GET olan ile gittik bir de POST ile SQL Injection var onun için is
 Basit kullanımı buraya kadardı şimdi biraz daha ileri seviye denemeler yapacağız 
 ilk olarak hangi veritabanına bağlı olduğumuzu ve o veritabanına hangi kullanıcı ile bağlandığımızı öğrenmeliyiz bunun için kullanacağımız komutlar 
 
-![SQLMap Current User, Current Db ](https://blog.kanunsuzlar.com/resim/sqlmap8.jpg)
+![SQLMap Current User, Current Db ](https://kanunsuzlar.com/resim/sqlmap8.jpg)
 	
 	--current-user 
 	--current-db
 Sorgulamayı yaptığımız zaman bize bağlı olduğumuz veritabanını ve kullancıyı verecek 
 
-![SQLMap Kullanıcı ve Veritabanı](https://blog.kanunsuzlar.com/resim/sqlmap9.jpg)
+![SQLMap Kullanıcı ve Veritabanı](https://kanunsuzlar.com/resim/sqlmap9.jpg)
 
 daha sonra kullanıcının yetkilerini sorgulamalıyız neleri görmeye neleri yazmaya izni var öğrendikten sonra işlemlerimize buna göre devam etmeliyiz 
 
-![SQLMap Kullancı İzinleri Sorgulama](https://blog.kanunsuzlar.com/resim/sqlmap10.jpg)
+![SQLMap Kullancı İzinleri Sorgulama](https://kanunsuzlar.com/resim/sqlmap10.jpg)
 
-![SQLMap Kullanıcı İzinleri](https://blog.kanunsuzlar.com/resim/sqlmap11.jpg)
+![SQLMap Kullanıcı İzinleri](https://kanunsuzlar.com/resim/sqlmap11.jpg)
 
 Geçerli kullanıcının izinlerinde dosyaları okumamıza yarayacak olan yetkiyi görüyoruz şimdi direk /etc/passwd dosyasını çektirelim bundan önce ufak bir bilgi daha vereyim eğer yaptığınız testlerde sqlmap'in kullandığı payloadları anlık olarak görmek istiyorsanız veya istekleri takip etmek istiyorsanız 
 -v3 
@@ -97,7 +97,7 @@ Geçerli kullanıcının izinlerinde dosyaları okumamıza yarayacak olan yetkiy
 -v6
 kullanabilirsiniz 
 
-![SQLMap Kullanımı ](https://blog.kanunsuzlar.com/resim/sqlmap12.jpg)
+![SQLMap Kullanımı ](https://kanunsuzlar.com/resim/sqlmap12.jpg)
 
 Dosya okumak için kullanacığımız komut
 
@@ -106,7 +106,7 @@ Dosya okumak için kullanacığımız komut
 ![SQLMap Kullanımı](https://blog.kanunsuzlar.com/resim/sqlmap13.jpg)
 Komutumuzu girdikten sonra çıkan sorulara default yanıtını vererek dosyamızı indiriyoruz daha sonra cat komutu ile dosyayı görüyoruz
 
-![/etc/passwd görek birazda](https://blog.kanunsuzlar.com/resim/sqlmap14.jpg)
+![/etc/passwd görek birazda](https://kanunsuzlar.com/resim/sqlmap14.jpg)
 
 Ve /etc/passwd dosyasını çekmeyi başarabildik şimdi ise v5 parametresi ile çıkan payloadı decode edelim
 	
