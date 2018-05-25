@@ -44,3 +44,5 @@ author:
 
 # comments
 #disqus_shortname: "fernandomoreira"
+
+theme: jekyll-theme-cayman
