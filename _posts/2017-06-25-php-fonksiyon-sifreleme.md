@@ -1,7 +1,7 @@
 ---
  layout: post
- title:  "PHP Yanlış Login Yapılandırılması"
- date:   2017-06-20 01:00:45 +0200
+ title:  "PHP Fonksiyon Şifreleme"
+ date:   2018-06-20 01:00:45 +0200
  categories: PHP
  image: /resim/cms_admin2.png	
 ---
