@@ -5,8 +5,8 @@ image: resim/metakapak.jpg
 Google,Facebook,Twitter gibi büyük sistemler üzerinde kendi sitemizden içerik yayınladığımız zamanlarda paylaşımlarda resimler gözükür mesela ben facebook üzerinde neşet ertaşın bir şarkısını paylaştığımda kapağında bir resim gözükür daha sonra alt kısımda açıklama olur işte bunları sayfada bulunan tagler sağlar 
 [https://www.youtube.com/watch?v=x2C3sk8kNe4](https://www.youtube.com/watch?v=x2C3sk8kNe4)
 url de CTRL+U ile kaynak koduna bakıp CTRL+F ile **og:** olarak aratırsanız OpenGraph tag'leri ile karşılaşacaksınız 
-![jekyll meta tag](https://blog.kanunsuzlar.com/resim/tag1.png)
-![jekyll meta tag](https://blog.kanunsuzlar.com/resim/metatag.png)
+![jekyll meta tag](https://kanunsuzlar.com/resim/tag1.png)
+![jekyll meta tag](https://kanunsuzlar.com/resim/metatag.png)
 
 **site_name** => **Sitenin adı**
 
