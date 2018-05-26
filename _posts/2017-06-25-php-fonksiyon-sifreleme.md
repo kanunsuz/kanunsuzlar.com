@@ -6,7 +6,6 @@
  image: /resim/cms_admin2.png	
 ---
 
-<h1 id="php-fonksiyon-ismini-şifrelemek">Php Fonksiyon ismini şifrelemek</h1>
 <p>Şifreleme nedir? Yaptığımız işlerde veya hayatımızda nasıl bir önemi vardır? Hep görürüz televizyonda suçlular dinlemelere takılmamak için elmaya armut der. Aslında verdiğim örnekten yola çıkarsak  ifade edeceğimiz şeyi hem biz hemde karşı tarafın anlaması lazım. Bu yol ile amacımızı gizlemiş ve gizlilik alanımızı başarıyla oluşturmuş oluyoruz. Fakat bu gizlilik deşifre olabilir. Konumuza gelelim şimdi PHP’deki genelde <s>yasaklı</s> bazı fonksiyonları biliriz. Eğer bilmiyorsak size şöyle örnek vereyim <code>exec</code> komutu tam bir baş belası haline gelebiliyor eğer ki sunucunuza bir takım iyi veya kötü kişiler erişim sağladıysa.</p>
 <p>Genelde bu fonksiyonu içeren kısımları engelleyen yazılımlar var. Bir php dosyasına bir ekleme yapacağız fakat bunu karşı tarafa hissettirmeden yapmamız gerekiyor. Öyle ise şu yolları deneyebiliriz;<br>
 Bir Array oluşturup buna fonksiyonumuzun her harfini ekleyelim.</p>
