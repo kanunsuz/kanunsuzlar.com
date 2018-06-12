@@ -1,27 +1,15 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+<head>
+	<title>kanunsuzlar</title>
+<style type="text/css">
+	body{
+		color: black;
 
-<div class="home">
- <div class="top card">
-    <a class="email" href="mailto:{{site.email}}">{{site.email}}</a>
-    <p class="description">{{ site.description }}</p>
-  </div>
-  <div class="posts card" style="background-size:cover;">
-      <div class="card-content white-text">
-      <span class="card-title">Yazılar</span>
+	}
+</style>
+</head>
+<body>
 
-      <ul class="post-list">
-        {% for post in site.posts %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>            
-          </li>
-        {% endfor %}
-      </ul>
-
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-      </div>
-   </div>
-
-</div>
+</body>
+</html>
